@@ -53,5 +53,10 @@ namespace InstaGama.Domain.Entities
         {
             return PasswordHasher.Verify(password, Password);
         }
+
+        public void SetId(int id)
+        {
+            Id = id;
+        }
     }
 }

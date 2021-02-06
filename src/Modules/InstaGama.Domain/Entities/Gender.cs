@@ -21,5 +21,10 @@
 
             return valid;
         }
+
+        public void SetId(int id)
+        {
+            Id = id;
+        }
     }
 }

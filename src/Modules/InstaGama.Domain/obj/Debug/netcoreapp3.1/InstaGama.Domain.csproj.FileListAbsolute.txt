@@ -1,0 +1,9 @@
+C:\_test\InstaGama\src\Modules\InstaGama.Domain\bin\Debug\netcoreapp3.1\InstaGama.Domain.deps.json
+C:\_test\InstaGama\src\Modules\InstaGama.Domain\bin\Debug\netcoreapp3.1\InstaGama.Domain.dll
+C:\_test\InstaGama\src\Modules\InstaGama.Domain\bin\Debug\netcoreapp3.1\InstaGama.Domain.pdb
+C:\_test\InstaGama\src\Modules\InstaGama.Domain\obj\Debug\netcoreapp3.1\InstaGama.Domain.csprojAssemblyReference.cache
+C:\_test\InstaGama\src\Modules\InstaGama.Domain\obj\Debug\netcoreapp3.1\InstaGama.Domain.AssemblyInfoInputs.cache
+C:\_test\InstaGama\src\Modules\InstaGama.Domain\obj\Debug\netcoreapp3.1\InstaGama.Domain.AssemblyInfo.cs
+C:\_test\InstaGama\src\Modules\InstaGama.Domain\obj\Debug\netcoreapp3.1\InstaGama.Domain.csproj.CoreCompileInputs.cache
+C:\_test\InstaGama\src\Modules\InstaGama.Domain\obj\Debug\netcoreapp3.1\InstaGama.Domain.dll
+C:\_test\InstaGama\src\Modules\InstaGama.Domain\obj\Debug\netcoreapp3.1\InstaGama.Domain.pdb
