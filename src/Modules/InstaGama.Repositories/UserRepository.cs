@@ -4,20 +4,70 @@ using System;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
-
+using Microsoft.Extensions.Configuration;
 
 namespace InstaGama.Repositories
 {
     public class UserRepository : IUserRepository
     {
-        public Task<User> GetByIdAsync(int id)
+        private readonly IConfiguration _configuration;
+
+        public UserRepository(IConfiguration configuration)
         {
-            throw new NotImplementedException();
+            _configuration = configuration;
+        }
+
+        public async Task<User> GetByIdAsync(int id)
+        {
+            using (var con = new SqlConnection(_configuration["ConnectionString"]))
+            {
+                var sqlCmd = @$"SELECT u.Id,
+	                                 u.Nome,
+	                                 u.Email,
+	                                 u.Senha,
+                                     u.DataNascimento,
+                                     u.Foto,
+	                                 g.Id as GeneroId,
+	                                 g.Descricao
+                                FROM 
+	                                Usuario u
+                                INNER JOIN 
+	                                Genero g ON g.Id = u.GeneroId
+                                WHERE 
+	                                u.Id= '{id}'";
+
+                using (var cmd = new SqlCommand(sqlCmd, con))
+                {
+                    cmd.CommandType = CommandType.Text;
+                    con.Open();
+
+                    var reader = await cmd
+                                        .ExecuteReaderAsync()
+                                        .ConfigureAwait(false);
+
+                    while (reader.Read())
+                    {
+                        var user = new User(reader["Email"].ToString(),
+                                            reader["Senha"].ToString(),
+                                            reader["Nome"].ToString(),
+                                            DateTime.Parse(reader["DataNascimento"].ToString()),
+                                            new Gender(reader["Descricao"].ToString()),
+                                            reader["Foto"].ToString());
+
+                        user.SetId(int.Parse(reader["id"].ToString()));
+                        user.Gender.SetId(int.Parse(reader["GeneroId"].ToString()));
+
+                        return user;
+                    }
+
+                    return default;
+                }
+            }
         }
 
         public async Task<User> GetByLoginAsync(string login)
         {
-            using (var con = new SqlConnection(""))
+            using (var con = new SqlConnection(_configuration["ConnectionString"]))
             {
                 var sqlCmd = @$"SELECT u.Id,
 	                                 u.Nome,
@@ -63,7 +113,7 @@ namespace InstaGama.Repositories
 
         public async Task<int> InsertAsync(User user)
         {
-            using (var con = new SqlConnection(""))
+            using (var con = new SqlConnection(_configuration["ConnectionString"]))
             {
                 var sqlCmd = @"INSERT INTO
                                 Usuario (GeneroId,

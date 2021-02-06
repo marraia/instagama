@@ -44,5 +44,6 @@ WHERE
 	u.Email= 'fernando.abreu@gmail.com'
 
 
+Select  * from Usuario
 
 

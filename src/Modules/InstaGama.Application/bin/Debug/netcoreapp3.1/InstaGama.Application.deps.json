@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "InstaGama.Application/1.0.0": {
+        "dependencies": {
+          "InstaGama.Domain": "1.0.0"
+        },
+        "runtime": {
+          "InstaGama.Application.dll": {}
+        }
+      },
+      "InstaGama.Domain/1.0.0": {
+        "runtime": {
+          "InstaGama.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InstaGama.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InstaGama.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

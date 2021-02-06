@@ -1,0 +1,16 @@
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories.IoC\bin\Debug\netcoreapp3.1\InstaGama.Repositories.IoC.deps.json
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories.IoC\bin\Debug\netcoreapp3.1\InstaGama.Repositories.IoC.dll
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories.IoC\bin\Debug\netcoreapp3.1\InstaGama.Repositories.IoC.pdb
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories.IoC\bin\Debug\netcoreapp3.1\InstaGama.Application.dll
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories.IoC\bin\Debug\netcoreapp3.1\InstaGama.Domain.dll
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories.IoC\bin\Debug\netcoreapp3.1\InstaGama.Repositories.dll
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories.IoC\bin\Debug\netcoreapp3.1\InstaGama.Application.pdb
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories.IoC\bin\Debug\netcoreapp3.1\InstaGama.Domain.pdb
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories.IoC\bin\Debug\netcoreapp3.1\InstaGama.Repositories.pdb
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories.IoC\obj\Debug\netcoreapp3.1\InstaGama.Repositories.IoC.csprojAssemblyReference.cache
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories.IoC\obj\Debug\netcoreapp3.1\InstaGama.Repositories.IoC.AssemblyInfoInputs.cache
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories.IoC\obj\Debug\netcoreapp3.1\InstaGama.Repositories.IoC.AssemblyInfo.cs
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories.IoC\obj\Debug\netcoreapp3.1\InstaGama.Repositories.IoC.csproj.CoreCompileInputs.cache
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories.IoC\obj\Debug\netcoreapp3.1\InstaGama.Repositories.IoC.csproj.CopyComplete
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories.IoC\obj\Debug\netcoreapp3.1\InstaGama.Repositories.IoC.dll
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories.IoC\obj\Debug\netcoreapp3.1\InstaGama.Repositories.IoC.pdb

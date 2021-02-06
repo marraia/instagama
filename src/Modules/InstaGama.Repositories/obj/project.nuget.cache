@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zRYP8yPoUJ6u4dTnUbqX3XxJ2Zz7Y4yVUCF48w+HgAQ44tcIRY0wnz6mJNK1R2yfymaV79UBxdVAN6OCnRdgSw==",
+  "dgSpecHash": "qicbDCJHDNL3P3gAbFpXDIXfsI0MK+eB0ewV53DBXrt6VUA/LfZsOxanUhqUSVtZDkSLNbIJNHQfU1pPF428zw==",
   "success": true,
   "projectFilePath": "C:\\_test\\InstaGama\\src\\Modules\\InstaGama.Repositories\\InstaGama.Repositories.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\foes\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.11\\microsoft.extensions.configuration.abstractions.3.1.11.nupkg.sha512",
+    "C:\\Users\\foes\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.11\\microsoft.extensions.primitives.3.1.11.nupkg.sha512",
     "C:\\Users\\foes\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\foes\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\foes\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

@@ -9,10 +9,30 @@
       "InstaGama.Repositories/1.0.0": {
         "dependencies": {
           "InstaGama.Domain": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.11",
           "System.Data.SqlClient": "4.8.2"
         },
         "runtime": {
           "InstaGama.Repositories.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.11": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.11"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "3.1.11.0",
+            "fileVersion": "3.100.1120.56716"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.11": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "3.1.11.0",
+            "fileVersion": "3.100.1120.56716"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
@@ -102,6 +122,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vdGEMIhzMGPgeb4WduWqJjgWK+WpkcLwssHJ5zKHQgqAaUdwbaMzMFz8bpOPkRfzwDVPomXmZChUh4fgpuxUjQ==",
+      "path": "microsoft.extensions.configuration.abstractions/3.1.11",
+      "hashPath": "microsoft.extensions.configuration.abstractions.3.1.11.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/3.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r85JK+201Jro6nxSjuBVbFs5FOVygDRV3rHV8pi1E+MSSRgr44FcAdxCrNX3aejBVzAyTkI4Ha8WiZ2BS47dvg==",
+      "path": "microsoft.extensions.primitives/3.1.11",
+      "hashPath": "microsoft.extensions.primitives.3.1.11.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",
