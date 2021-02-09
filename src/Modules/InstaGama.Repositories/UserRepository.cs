@@ -73,6 +73,8 @@ namespace InstaGama.Repositories
 	                                 u.Nome,
 	                                 u.Email,
 	                                 u.Senha,
+                                     u.DataNascimento,
+                                     u.Foto,
 	                                 g.Id as GeneroId,
 	                                 g.Descricao
                                 FROM 

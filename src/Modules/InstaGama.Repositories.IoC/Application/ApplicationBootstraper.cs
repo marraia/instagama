@@ -9,6 +9,7 @@ namespace InstaGama.Repositories.IoC.Application
         internal void ChildServiceRegister(IServiceCollection services)
         {
             services.AddScoped<IUserAppService, UserAppService>();
+            services.AddScoped<ILoginAppService, LoginAppService>();
         }
     }
 }

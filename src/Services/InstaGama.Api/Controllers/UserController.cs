@@ -1,7 +1,9 @@
 ﻿using InstaGama.Application.AppUser.Input;
 using InstaGama.Application.AppUser.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +21,7 @@ namespace InstaGama.Api.Controllers
         {
             _userAppService = userAppService;
         }
-
+        
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] UserInput userInput)
         {
@@ -37,6 +39,7 @@ namespace InstaGama.Api.Controllers
             }
         }
 
+        [Authorize(Roles="Masculino")]
         [HttpGet]
         [Route("{id}")]
         public async Task<IActionResult> Get([FromRoute] int id)
