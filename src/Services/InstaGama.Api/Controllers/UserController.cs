@@ -22,6 +22,7 @@ namespace InstaGama.Api.Controllers
             _userAppService = userAppService;
         }
         
+        [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] UserInput userInput)
         {
@@ -39,7 +40,7 @@ namespace InstaGama.Api.Controllers
             }
         }
 
-        [Authorize(Roles="Masculino")]
+        [Authorize]
         [HttpGet]
         [Route("{id}")]
         public async Task<IActionResult> Get([FromRoute] int id)

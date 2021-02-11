@@ -25,25 +25,50 @@ ALTER TABLE dbo.Usuario
    ADD CONSTRAINT FK_Usuario_Genero FOREIGN KEY (GeneroId)
       REFERENCES dbo.Genero (Id)
 
-SELECT * FROM Usuario
-INSERT INTO GENERO VALUES ('Masculino')
-INSERT INTO USUARIO VALUES (1, 'Fernando Mendes', 'fernando.abreu@gmail.com', '123Aa321', '1986-01-15', '')
 
+CREATE TABLE dbo.Postagem (
+   Id int IDENTITY(1,1) NOT NULL,
+   UsuarioId int NOT NULL,
+   Texto varchar(250) NOT NULL,
+   Criacao DateTime NOT NULL,
+   CONSTRAINT PK_Postagem_Id PRIMARY KEY CLUSTERED (Id)
+)
 
-SELECT u.Id,
-	 u.Nome,
-	 u.Email,
-	 u.Senha,
-	 g.Id as GeneroId,
-	 g.Descricao
-FROM 
-	Usuario u
-INNER JOIN 
-	Genero g ON g.Id = u.GeneroId
-WHERE 
-	u.Email= 'fernando.abreu@gmail.com'
+ALTER TABLE dbo.Postagem
+   ADD CONSTRAINT FK_Postagem_Usuario FOREIGN KEY (UsuarioId)
+      REFERENCES dbo.Usuario (Id)
+	  
+	  
+CREATE TABLE dbo.Comentario (
+   Id int IDENTITY(1,1) NOT NULL,
+   UsuarioId int NOT NULL,
+   PostagemId int NOT NULL,
+   Texto varchar(250) NOT NULL,
+   Criacao DateTime NOT NULL,
+   CONSTRAINT PK_Comentario_Id PRIMARY KEY CLUSTERED (Id)
+)
 
+ALTER TABLE dbo.Comentario
+   ADD CONSTRAINT FK_Comentario_Usuario FOREIGN KEY (UsuarioId)
+      REFERENCES dbo.Usuario (Id)
+	  
+ALTER TABLE dbo.Comentario
+   ADD CONSTRAINT FK_Comentario_Postagem FOREIGN KEY (PostagemId)
+      REFERENCES dbo.Postagem (Id)
+	  
+CREATE TABLE dbo.Curtidas (
+   Id int IDENTITY(1,1) NOT NULL,
+   UsuarioId int NOT NULL,
+   PostagemId int NOT NULL,
+   CONSTRAINT PK_Curtidas_Id PRIMARY KEY CLUSTERED (Id)
+)
 
-Select  * from Usuario
+ALTER TABLE dbo.Curtidas
+   ADD CONSTRAINT FK_Curtidas_Usuario FOREIGN KEY (UsuarioId)
+      REFERENCES dbo.Usuario (Id)
+	  
+ALTER TABLE dbo.Curtidas
+   ADD CONSTRAINT FK_Curtidas_Postagem FOREIGN KEY (PostagemId)
+      REFERENCES dbo.Postagem (Id)
 
 

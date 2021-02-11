@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "nx+cSC5AiJSJ1CcIPJDEPXK8y8aqiq4OZvuXhuc1nE7KhhqA9ra0/Hp3h0K4I5lUFr6Wc1Xq7MipPfIyG6athQ==",
+  "dgSpecHash": "VOAY9RlnELBzqJJ2WckH3w8BqCKwspEUS5IYPtaD0XMDDh0LN99wW32vXwvcfzw1mCSpiouBHx1wXVB/zYGzSg==",
   "success": true,
   "projectFilePath": "C:\\_test\\InstaGama\\src\\Modules\\InstaGama.Domain\\InstaGama.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\foes\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\foes\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\foes\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\foes\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\foes\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\foes\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

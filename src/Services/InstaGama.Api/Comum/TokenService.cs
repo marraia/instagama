@@ -20,7 +20,8 @@ namespace InstaGama.Api.Comum
                 Subject = new ClaimsIdentity(new Claim[]
                 {
                     new Claim(ClaimTypes.Name, user.Name.ToString()),
-                    new Claim(ClaimTypes.Role, user.Gender.Description)
+                    new Claim(ClaimTypes.Role, user.Gender.Description),
+                    new Claim(JwtRegisteredClaimNames.Jti, user.Id.ToString())
                 }),
                 Expires = DateTime.UtcNow.AddMinutes(1),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)

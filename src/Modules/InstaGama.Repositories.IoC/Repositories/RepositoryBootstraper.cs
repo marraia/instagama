@@ -9,6 +9,9 @@ namespace InstaGama.Repositories.IoC.Repositories
         {
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IGenderRepository, GenderRepository>();
+            services.AddScoped<IPostageRepository, PostageRepository>();
+            services.AddScoped<ICommentRepository, CommentRepository>();
+            services.AddScoped<ILikesRepository, LikesRepository>();
         }
     }
 }

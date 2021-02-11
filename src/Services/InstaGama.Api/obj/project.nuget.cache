@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tQrZsl2xCJemrT+ZeqjH3IVxbRoM/gwrsWcBNOdBIzmUNVmqVinhkLonTO/8A+oKGAze/dT8Z3mOQl5uYarrmg==",
+  "dgSpecHash": "O4AcE91Pyy/CCHKAywfE81sFMdHnOc2yeE/fP0iRowpAXq0ntWu0Wsj6Ss7Wvo0zgiorEph6XKifkU73Y60K1A==",
   "success": true,
   "projectFilePath": "C:\\_test\\InstaGama\\src\\Services\\InstaGama.Api\\InstaGama.Api.csproj",
   "expectedPackageFiles": [
@@ -13,7 +13,7 @@
     "C:\\Users\\foes\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\2.2.0\\microsoft.aspnetcore.dataprotection.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\foes\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\foes\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\foes\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.0\\microsoft.aspnetcore.http.2.2.0.nupkg.sha512",
+    "C:\\Users\\foes\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\foes\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\foes\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Users\\foes\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
