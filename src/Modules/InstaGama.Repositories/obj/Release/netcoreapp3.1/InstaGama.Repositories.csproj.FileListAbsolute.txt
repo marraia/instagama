@@ -1,0 +1,12 @@
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories\bin\Release\netcoreapp3.1\InstaGama.Repositories.deps.json
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories\bin\Release\netcoreapp3.1\InstaGama.Repositories.dll
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories\bin\Release\netcoreapp3.1\InstaGama.Repositories.pdb
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories\bin\Release\netcoreapp3.1\InstaGama.Domain.dll
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories\bin\Release\netcoreapp3.1\InstaGama.Domain.pdb
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories\obj\Release\netcoreapp3.1\InstaGama.Repositories.csprojAssemblyReference.cache
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories\obj\Release\netcoreapp3.1\InstaGama.Repositories.AssemblyInfoInputs.cache
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories\obj\Release\netcoreapp3.1\InstaGama.Repositories.AssemblyInfo.cs
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories\obj\Release\netcoreapp3.1\InstaGama.Repositories.csproj.CoreCompileInputs.cache
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories\obj\Release\netcoreapp3.1\InstaGama.Repositories.csproj.CopyComplete
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories\obj\Release\netcoreapp3.1\InstaGama.Repositories.dll
+C:\_test\InstaGama\src\Modules\InstaGama.Repositories\obj\Release\netcoreapp3.1\InstaGama.Repositories.pdb
