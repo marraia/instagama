@@ -103,4 +103,5 @@ namespace InstaGama.Domain.Core
             return true;
         }
     }
+
 }

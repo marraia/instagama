@@ -15,6 +15,7 @@ namespace InstaGama.Repositories.IoC.Application
         {
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped<ILogged, Logged>();
+            services.AddScoped<IStorageHelper, StorageHelper>();
 
             services.AddScoped<IUserAppService, UserAppService>();
             services.AddScoped<ILoginAppService, LoginAppService>();
