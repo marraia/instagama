@@ -21,6 +21,17 @@ namespace InstaGama.Domain.Entities
             Photo = photo;
         }
 
+        public User(string name,
+                     DateTime birthday,
+                     Gender gender,
+                     string photo)
+        {
+            Name = name;
+            Birthday = birthday;
+            Gender = gender;
+            Photo = photo;
+        }
+
         public int Id { get; private set; }
         public string Email { get; private set; }
         public string Password { get; private set; }
@@ -52,6 +63,12 @@ namespace InstaGama.Domain.Entities
         public bool IsEqualPassword(string password)
         {
             return PasswordHasher.Verify(password, Password);
+        }
+
+        public void InformationLoginUser(string email, string password)
+        {
+            Email = email;
+            Password = password;
         }
 
         public void SetId(int id)

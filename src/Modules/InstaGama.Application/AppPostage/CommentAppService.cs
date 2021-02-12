@@ -15,7 +15,7 @@ namespace InstaGama.Application.AppPostage
         private readonly ICommentRepository _commentRepository;
         private readonly ILogged _logged;
         public CommentAppService(ICommentRepository commentRepository,
-                                    ILogged logged)
+                                  ILogged logged)
         {
             _commentRepository = commentRepository;
             _logged = logged;
