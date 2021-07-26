@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '43db8811-24ab-41a6-b5ee-1d7354c52c74'
   imageRepository: 'marraiainstagama'
   containerRegistry: 'fteto.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/src/Services/InstaGama.Api/Dockerfile'
+  dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
@@ -37,3 +37,4 @@ stages:
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)
+          latest

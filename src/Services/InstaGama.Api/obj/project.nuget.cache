@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2sKsk2K6u6MspwkHXugCA6TQPV2Lu0EdA031K88LMji442BXl9zBw68+sd45aaTakaaJq3C7D4CTZeFntaSDuA==",
+  "dgSpecHash": "A+v8LAPm1kfk9iItxyU5rvAkUT5uqJL+7AkhQ8ySaaSXozKIvZosJBDwSKq3Hiy0ORhx/8ctezkC42GuG5tjVA==",
   "success": true,
   "projectFilePath": "C:\\_test\\InstaGama\\src\\Services\\InstaGama.Api\\InstaGama.Api.csproj",
   "expectedPackageFiles": [
@@ -138,7 +138,8 @@
     "C:\\Users\\foes\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\foes\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\foes\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\foes\\.nuget\\packages\\windowsazure.storage\\9.3.3\\windowsazure.storage.9.3.3.nupkg.sha512"
+    "C:\\Users\\foes\\.nuget\\packages\\windowsazure.storage\\9.3.3\\windowsazure.storage.9.3.3.nupkg.sha512",
+    "C:\\Users\\foes\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
   ],
   "logs": []
 }
